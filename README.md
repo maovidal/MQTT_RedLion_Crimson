@@ -14,6 +14,7 @@ This documention is on the works... If doubts, please ask.
 Please note that currently this is considered in alpha stage, so future versions can lead disruptive changes to implementations based on this version.
 
 Important limitations:
+- It does not implement QoS other than 0
 - It does not support User/Password, Will, Clean Session
 - It does not provide error info on Connection neither the Session Present flag
 
