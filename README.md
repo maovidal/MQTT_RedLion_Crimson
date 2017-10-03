@@ -8,12 +8,12 @@ To test it:
 - Use a MQTT Client like http://mqttfx.jensd.de/index.php/download to help with the test
 - The program "Start" fills the tags used to provide a basic configuration.
 - By default this subscribes to "ToRL" and publishes to "FromRL". Its will message is at "RL/Status".
-- The broker has hardcoded the current ip of test.mosquitto.org. You may want to change it to something that suits you at the network configuration of the Crisom database.
+- The broker has hardcoded the current ip of test.mosquitto.org. You may want to change it to something that suits you at the network configuration of the Crimson database.
 
 To implement it on your own database:
-- Copy the entire folder of TAGS and the entire folder of PROGRAMS to your database
+- Copy the entire folder of TAGS and the entire folder of PROGRAMS to your database.
 - Check every program on the MQTT/Custom folder changing their content according to their comments.
-- Set MQTT.Routines.Rx() on the "On update" field on the "Communications>>Networks>>Protocol X" you want this driver to operate
+- Set MQTT.Routines.Rx() on the "On update" field on the "Communications>>Networks>>Protocol X" that you choose to operate this driver.
 - Set MQTT.Custom.Start() on "On Startup" and MQTT.Custom.EverySecond() on "On tick" at the "Pages>>Global>>Global Actions" properties.
 
 If you have any doubts, please ask. Pull requests are welcome.
