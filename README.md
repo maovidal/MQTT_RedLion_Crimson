@@ -4,12 +4,13 @@ MQTT driver for the RedLion Crimson 3.0
 This is an implementation of the MQTT protocol for devices programmed with RedLion Crimson 3.0 http://www.redlion.net/crimson-30
 
 To test it:
-- The broker has hardcoded the current ip of test.mosquitto.org. You may want to change it.
-- Configure and use Crimson Emulator (Set a propper Ethernet mapping). It is based on G306A device
+- Configure and use Crimson Emulator (Set a propper Ethernet mapping). It is based on G306A device.
 - Use a MQTT Client like http://mqttfx.jensd.de/index.php/download to help with the test
-- The program "Start" fills the tags used to provide a basic configuration. It subscribes the device to "ToRL" and its predefined Pubish Topic is "FromRL"
+- The program "Start" fills the tags used to provide a basic configuration.
+- By default this subscribes to "ToRL" and publishes to "FromRL". Its will message is at "RL/Status".
+- The broker has hardcoded the current ip of test.mosquitto.org. You may want to change it to something that suits you at the network configuration of the Crisom database.
 
-This documention is on the works... If doubts, please ask.
+If you have any doubts, please ask. Pull requests are welcome.
 
 Please note that currently this is considered in alpha stage, so future versions can lead disruptive changes to implementations based on this version.
 
