@@ -18,7 +18,7 @@ To implement it on your own database:
 
 If you have any doubts, please ask. Pull requests are welcome.
 
-Let me know if this is useful for you. It will encourage me to keep it up to date.
+Let me know if this is useful to you. It will encourage me to keep it up to date.
 
 Please note that currently this is considered in alpha stage, so future versions can lead disruptive changes to implementations based on this version.
 
