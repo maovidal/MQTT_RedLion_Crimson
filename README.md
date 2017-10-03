@@ -7,7 +7,7 @@ To test it:
 - The broker has hardcoded the current ip of test.mosquitto.org. You may want to change it.
 - Configure and use Crimson Emulator (Set a propper Ethernet mapping). It is based on G306A device
 - Use a MQTT Client like http://mqttfx.jensd.de/index.php/download to help with the test
-- The Program Start fill the tags used to provide a basic configuration. It subscribes the device to ToRL and its predefined Pubish Topic is FromRL
+- The program "Start" fills the tags used to provide a basic configuration. It subscribes the device to "ToRL" and its predefined Pubish Topic is "FromRL"
 
 This documention is on the works... If doubts, please ask.
 
@@ -15,7 +15,6 @@ Please note that currently this is considered in alpha stage, so future versions
 
 Important limitations:
 - It does not implement QoS other than 0
-- It does not support User/Password, Will, Clean Session
 - It does not provide error info on Connection neither the Session Present flag
 
 *******************************************************************************
