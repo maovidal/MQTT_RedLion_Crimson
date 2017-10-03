@@ -14,7 +14,8 @@ This documention is on the works... If doubts, please ask.
 Please note that currently this is considered in alpha stage, so future versions can lead disruptive changes to implementations based on this version.
 
 Important limitations:
-- It does not implement QoS other than 0
+- It does not use SSL/TLS connections (So you may use it only on secure networks)
+- It does not implement QoS other than 0 on any kind of messages (PUB/SUBS/Will)
 - It does not provide error info on Connection neither the Session Present flag
 
 *******************************************************************************
